@@ -732,7 +732,9 @@ input [type="checkbox"] {
     border-radius: 4px;
 }
 
-
+.svg-footer-btn {
+    margin-left: 16px;
+}
 
 
 
