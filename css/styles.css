@@ -571,7 +571,7 @@ border: none;
     margin-bottom: 8px;
 }
 
-.label-name {
+.label-form {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -599,7 +599,12 @@ border: none;
 .input-class:focus {
 border-color: #4D5AE5;
 }
- .name-icon-svg {
+/*
+.input-class:focus>.form-icon-svg {
+    fill: #4D5AE5;
+}*/
+
+ .form-icon-svg {
     position: absolute;
     left: 16px;
     top: 50%;
