@@ -140,6 +140,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .main-title {
@@ -599,10 +600,10 @@ border: none;
 .input-class:focus {
 border-color: #4D5AE5;
 }
-/*
-.input-class:focus>.form-icon-svg {
+
+.input-class:focus + .form-icon-svg {
     fill: #4D5AE5;
-}*/
+}
 
  .form-icon-svg {
     position: absolute;
@@ -661,8 +662,10 @@ border-color: #4D5AE5;
     fill: transparent;
 }
 
-input [type="checkbox"] {
-
+.input-checkbox:checked + .label-user-privacy > .label-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .link-prvacy-policy {
