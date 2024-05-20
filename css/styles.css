@@ -740,8 +740,12 @@ border-color: #4D5AE5;
     fill: #FFFFFF;
 }
 
+/*.input-footer-class {
+   margin-left: 40px;
+}*/
 
-
-
+.footer-input-div {
+    margin: 0 auto;
+}
 
 
